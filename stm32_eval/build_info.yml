@@ -1,0 +1,19 @@
+cmake:
+  application:
+    source-dir: C:/ncs/v2.9.0/zephyr/share/sysbuild
+  board:
+    name: nucleo_f334r8
+    qualifiers: stm32f334x8
+    revision: 
+  kconfig:
+    files:
+     - C:/ncs/wkspc/example/blinky/stm32_eval/_sysbuild/empty.conf
+     - C:/ncs/wkspc/example/blinky/stm32_eval/_sysbuild/empty.conf
+    user-files:
+     - C:/ncs/wkspc/example/blinky/stm32_eval/_sysbuild/empty.conf
+  sysbuild: true
+version: 0.1.0
+west:
+  command: C:\ncs\toolchains\b620d30767\opt\bin\Scripts\west build --build-dir c:/ncs/wkspc/example/blinky/stm32_eval c:/ncs/wkspc/example/blinky --pristine --board nucleo_f334r8/stm32f334x8 -- -DNCS_TOOLCHAIN_VERSION=NONE -DBOARD_ROOT=c:/ncs/wkspc/example/blinky_pwm;c:/ncs/wkspc/example/blinky_pwm_1;c:/ncs/wkspc/example/blinky
+  topdir: c:\ncs\v2.9.0
+  version: 1.2.0

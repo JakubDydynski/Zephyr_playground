@@ -1,0 +1,19 @@
+# ninja log v5
+2	758	7634689696738142	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-mkdir	30730c4ee719bd65
+2	758	7634689696738142	C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-mkdir	30730c4ee719bd65
+760	985	7634689698979368	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-download	4d886c8a104681e5
+760	985	7634689698979368	C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-download	4d886c8a104681e5
+986	1263	7634689701730860	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-update	a0472cd8939d134d
+986	1263	7634689701730860	C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-update	a0472cd8939d134d
+1264	1530	7634689704381855	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-patch	7c5c72607c5bb505
+1264	1530	7634689704381855	C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-patch	7c5c72607c5bb505
+1531	1818	7634689707337912	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-configure	6216fb2c809ce4db
+1531	1818	7634689707337912	C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-configure	6216fb2c809ce4db
+1819	38993	0	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-build	88b3e6cd17f823e
+1819	38993	0	C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-build	88b3e6cd17f823e
+38993	39265	7634690081796797	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-install	f0eb7bed6c59635e
+38993	39265	7634690081796797	C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-install	f0eb7bed6c59635e
+39266	39635	7634690085496380	_sysbuild/sysbuild/images/CMakeFiles/blinky-complete	34c6dc0471b8a3a3
+39266	39635	7634690085496380	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-done	34c6dc0471b8a3a3
+39266	39635	7634690085496380	C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/CMakeFiles/blinky-complete	34c6dc0471b8a3a3
+39266	39635	7634690085496380	C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-done	34c6dc0471b8a3a3

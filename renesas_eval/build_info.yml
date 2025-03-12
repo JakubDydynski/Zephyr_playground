@@ -1,0 +1,19 @@
+cmake:
+  application:
+    source-dir: C:/ncs/v2.9.0/zephyr/share/sysbuild
+  board:
+    name: ek_ra6m5
+    qualifiers: r7fa6m5bh3cfc
+    revision: 
+  kconfig:
+    files:
+     - C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/empty.conf
+     - C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/empty.conf
+    user-files:
+     - C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/empty.conf
+  sysbuild: true
+version: 0.1.0
+west:
+  command: C:\ncs\toolchains\b620d30767\opt\bin\Scripts\west build --build-dir c:/ncs/wkspc/example/blinky/renesas_eval c:/ncs/wkspc/example/blinky --pristine --board ek_ra6m5/r7fa6m5bh3cfc -- -DNCS_TOOLCHAIN_VERSION=NONE -DBOARD_ROOT=c:/ncs/wkspc/example/blinky_pwm;c:/ncs/wkspc/example/blinky_pwm_1;c:/ncs/wkspc/example/blinky
+  topdir: c:\ncs\v2.9.0
+  version: 1.2.0

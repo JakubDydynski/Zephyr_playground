@@ -1,0 +1,3 @@
+osource "C:/ncs/wkspc/example/blinky_pwm/boards/shields/*/Kconfig.shield"
+osource "C:/ncs/wkspc/example/blinky_pwm_1/boards/shields/*/Kconfig.shield"
+osource "C:/ncs/wkspc/example/blinky/boards/shields/*/Kconfig.shield"

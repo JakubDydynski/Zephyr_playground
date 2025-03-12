@@ -1,0 +1,6 @@
+west:
+  command: C:\ncs\toolchains\b620d30767\opt\bin\Scripts\west build --build-dir c:/ncs/wkspc/example/blinky/renesas_eval
+    c:/ncs/wkspc/example/blinky --pristine --board ek_ra6m5/r7fa6m5bh3cfc -- -DNCS_TOOLCHAIN_VERSION=NONE
+    -DBOARD_ROOT=c:/ncs/wkspc/example/blinky_pwm;c:/ncs/wkspc/example/blinky_pwm_1;c:/ncs/wkspc/example/blinky
+  topdir: c:\ncs\v2.9.0
+  version: 1.2.0

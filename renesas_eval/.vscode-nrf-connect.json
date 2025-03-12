@@ -1,0 +1,19 @@
+{
+  "toolchainPath": "c:\\ncs\\toolchains\\b620d30767",
+  "sdkPath": "c:\\ncs\\v2.9.0",
+  "board": "ek_ra6m5/r7fa6m5bh3cfc",
+  "boardDirs": [
+    "c:\\ncs\\v2.9.0\\zephyr\\boards\\renesas\\ek_ra6m5"
+  ],
+  "boardRevision": "",
+  "boardDir": "c:\\ncs\\v2.9.0\\zephyr\\boards\\renesas\\ek_ra6m5",
+  "shouldBuild": true,
+  "optimizations": "none",
+  "cmakeArgs": [],
+  "confFiles": [],
+  "buildDirectory": "renesas_eval",
+  "kconfigFragments": [],
+  "snippets": [],
+  "dtcOverlays": [],
+  "extraDtcOverlays": []
+}

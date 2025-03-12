@@ -1,0 +1,7 @@
+default: blinky
+build_dir: C:/ncs/wkspc/example/blinky/stm32_eval
+domains:
+  - name: blinky
+    build_dir: C:/ncs/wkspc/example/blinky/stm32_eval/blinky
+flash_order:
+  - blinky

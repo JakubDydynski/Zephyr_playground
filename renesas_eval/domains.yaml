@@ -1,0 +1,7 @@
+default: blinky
+build_dir: C:/ncs/wkspc/example/blinky/renesas_eval
+domains:
+  - name: blinky
+    build_dir: C:/ncs/wkspc/example/blinky/renesas_eval/blinky
+flash_order:
+  - blinky

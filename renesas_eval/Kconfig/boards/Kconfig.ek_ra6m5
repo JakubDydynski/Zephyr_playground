@@ -1,0 +1,2 @@
+# Load board Kconfig descriptions.
+osource "C:/ncs/v2.9.0/zephyr/boards/renesas/ek_ra6m5/Kconfig.ek_ra6m5"

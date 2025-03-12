@@ -1,0 +1,13 @@
+# Target labels
+ blinky
+# Source files and their labels
+C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/CMakeFiles/blinky
+C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/CMakeFiles/blinky.rule
+C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/CMakeFiles/blinky-complete.rule
+C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-build.rule
+C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-configure.rule
+C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-download.rule
+C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-install.rule
+C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-mkdir.rule
+C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-patch.rule
+C:/ncs/wkspc/example/blinky/renesas_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-update.rule

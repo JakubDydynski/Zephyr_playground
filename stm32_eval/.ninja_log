@@ -1,0 +1,19 @@
+# ninja log v5
+3	912	7634690663554429	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-mkdir	9802dfc7e123f657
+3	912	7634690663554429	C:/ncs/wkspc/example/blinky/stm32_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-mkdir	9802dfc7e123f657
+914	1188	7634690666326484	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-download	62fc9931423f7b00
+914	1188	7634690666326484	C:/ncs/wkspc/example/blinky/stm32_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-download	62fc9931423f7b00
+1189	1534	7634690669474898	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-update	892ca6da756babb3
+1189	1534	7634690669474898	C:/ncs/wkspc/example/blinky/stm32_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-update	892ca6da756babb3
+1535	1933	7634690673702941	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-patch	af598b90c0e6c5f9
+1535	1933	7634690673702941	C:/ncs/wkspc/example/blinky/stm32_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-patch	af598b90c0e6c5f9
+1934	2244	7634690676873469	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-configure	a28a3daf4d76fe03
+1934	2244	7634690676873469	C:/ncs/wkspc/example/blinky/stm32_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-configure	a28a3daf4d76fe03
+2244	51434	0	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-build	831270a1cb27d887
+2244	51434	0	C:/ncs/wkspc/example/blinky/stm32_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-build	831270a1cb27d887
+51435	51745	7634691171873805	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-install	7f6198b5f5d26d7a
+51435	51745	7634691171873805	C:/ncs/wkspc/example/blinky/stm32_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-install	7f6198b5f5d26d7a
+51746	52145	7634691175860521	_sysbuild/sysbuild/images/CMakeFiles/blinky-complete	71b67b478a7206ff
+51746	52145	7634691175860521	_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-done	71b67b478a7206ff
+51746	52145	7634691175860521	C:/ncs/wkspc/example/blinky/stm32_eval/_sysbuild/sysbuild/images/CMakeFiles/blinky-complete	71b67b478a7206ff
+51746	52145	7634691175860521	C:/ncs/wkspc/example/blinky/stm32_eval/_sysbuild/sysbuild/images/blinky-prefix/src/blinky-stamp/blinky-done	71b67b478a7206ff

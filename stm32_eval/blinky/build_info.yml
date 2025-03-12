@@ -1,0 +1,50 @@
+cmake:
+  application:
+    configuration-dir: C:/ncs/wkspc/example/blinky
+    source-dir: C:/ncs/wkspc/example/blinky
+  board:
+    name: nucleo_f334r8
+    qualifiers: stm32f334x8
+    revision: 
+  devicetree:
+    bindings-dirs:
+     - C:/ncs/v2.9.0/zephyr/dts/bindings
+    files:
+     - C:/ncs/v2.9.0/zephyr/boards/st/nucleo_f334r8/nucleo_f334r8.dts
+     - C:/ncs/wkspc/example/blinky/boards/nucleo_f334r8.overlay
+    include-dirs:
+     - C:/ncs/v2.9.0/modules/hal/atmel/include
+     - C:/ncs/v2.9.0/modules/hal/gigadevice/include
+     - C:/ncs/v2.9.0/modules/hal/microchip/dts
+     - C:/ncs/v2.9.0/modules/hal/nuvoton/dts
+     - C:/ncs/v2.9.0/modules/hal/nxp/dts
+     - C:/ncs/v2.9.0/modules/hal/stm32/dts
+     - C:/ncs/v2.9.0/zephyr/include
+     - C:/ncs/v2.9.0/zephyr/include/zephyr
+     - C:/ncs/v2.9.0/zephyr/dts/common
+     - C:/ncs/v2.9.0/zephyr/dts/x86
+     - C:/ncs/v2.9.0/zephyr/dts/xtensa
+     - C:/ncs/v2.9.0/zephyr/dts/sparc
+     - C:/ncs/v2.9.0/zephyr/dts/riscv
+     - C:/ncs/v2.9.0/zephyr/dts/posix
+     - C:/ncs/v2.9.0/zephyr/dts/nios2
+     - C:/ncs/v2.9.0/zephyr/dts/arm64
+     - C:/ncs/v2.9.0/zephyr/dts/arm
+     - C:/ncs/v2.9.0/zephyr/dts/arc
+     - C:/ncs/v2.9.0/zephyr/dts
+    user-files:
+     - C:/ncs/wkspc/example/blinky/boards/nucleo_f334r8.overlay
+  kconfig:
+    files:
+     - C:/ncs/v2.9.0/zephyr/boards/st/nucleo_f334r8/nucleo_f334r8_defconfig
+     - C:/ncs/wkspc/example/blinky/prj.conf
+     - C:/ncs/wkspc/example/blinky/stm32_eval/blinky/zephyr/.config.sysbuild
+    user-files:
+     - C:/ncs/wkspc/example/blinky/prj.conf
+  toolchain:
+    name: zephyr
+    path: C:/ncs/toolchains/b620d30767/opt/zephyr-sdk
+  zephyr:
+    version: 3.7.99
+    zephyr-base: C:/ncs/v2.9.0/zephyr
+version: 0.1.0

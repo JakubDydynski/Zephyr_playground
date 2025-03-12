@@ -1,0 +1,42 @@
+# Available runners configured by board.cmake.
+runners:
+- stm32cubeprogrammer
+- pyocd
+- openocd
+- jlink
+
+# Default flash runner if --runner is not given.
+flash-runner: stm32cubeprogrammer
+
+# Default debug runner if --runner is not given.
+debug-runner: pyocd
+
+# Common runner configuration values.
+config:
+  board_dir: C:/ncs/v2.9.0/zephyr/boards/st/nucleo_f334r8
+  # Build outputs:
+  elf_file: zephyr.elf
+  hex_file: zephyr.hex
+  bin_file: zephyr.bin
+  # Host tools:
+  gdb: C:/ncs/toolchains/b620d30767/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe
+
+# Runner specific arguments
+args:
+  stm32cubeprogrammer:
+    - --port=swd
+    - --reset-mode=hw
+  pyocd:
+    - --dt-flash=y
+    - --target=stm32f334r8tx
+    - --flash-opt=-O reset_type=hw
+    - --flash-opt=-O connect_mode=under-reset
+  openocd:
+    - --cmd-load
+    - flash write_image erase
+    - --cmd-verify
+    - verify_image
+  jlink:
+    - --dt-flash=y
+    - --device=STM32F334R8
+    - --speed=4000
